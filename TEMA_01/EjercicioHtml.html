@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="es-ES">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hola mundo desde DWEC</title>
-
-    <script>
-        const saludar = () => {
-            alert('Hola mundo desde DWEC');
-        }
-    </script>
+    <title>Mi primer HTML</title>
 </head>
-
 <body>
-    <h1>Hola Mundo desde DWEC</h1>
 
-    <button onclick="saludar()">Saludar</button>
+    <!-- Mensaje sobre Git -->
+    <h1>Este es mi primer HTML guardado en Git</h1>
+
+    <!-- Pestaña desplegable (detalles) -->
+    <details>
+        <summary>Haz clic aquí para abrir la pestaña</summary>
+        <p>¡Hola! Este es el contenido que estaba oculto dentro de la pestaña.</p>
+    </details>
+
+    <br><hr><br>
+
+    <!-- Formulario para enviar mensaje -->
+    <h2>Enviar mensaje</h2>
+    <form>
+        <label for="mensaje">Escribe tu mensaje:</label><br><br>
+        <textarea id="mensaje" rows="4" cols="40" placeholder="Escribe algo aquí..."></textarea><br><br>
+        
+        <button type="button" onclick="alert('¡Mensaje enviado!')">Enviar mensaje</button>
+    </form>
+
 </body>
 </html>
