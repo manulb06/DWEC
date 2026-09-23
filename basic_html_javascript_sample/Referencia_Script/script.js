@@ -1,3 +1,4 @@
-function saludar() {
-    alert('¡Hola! Bienvenido a Desarrollo Web en Entorno Cliente.');
+const saludar = () => {
+    alert('Hola mundo desde DWEC');
 }
+
